@@ -1,24 +1,16 @@
 # 🎉 Instagram Clone - A Mini Photo Paradise! 📸
 ```markdown
-# 🎉 Instagram Clone - A Mini Photo Paradise! 📸
-
 Welcome to the **Instagram Clone**! 🎈 Here, you can upload, like, and comment on photos just like the real deal, but with a sprinkle of magic and a dash of fun! 🎊
 
 ## 🌟 Features
 
 - **User Authentication**: Sign up and log in with ease! Your memories are safe with us. 🔑
-![Screenshot 2024-10-05 232602](https://github.com/user-attachments/assets/3ab7ce53-a8d6-40bf-8a30-d8140d3251b2)
 
 - **Photo Uploading**: Share your beautiful moments with the world! Just click, upload, and voila! 🌍✨
-![Screenshot 2024-10-05 232945](https://github.com/user-attachments/assets/28f5d159-dd39-47d4-9430-8f73264110c4)
 
 - **Like & Comment**: Show some love on your friends' posts and join the conversation! 💬❤️
 
-![Screenshot 2024-10-05 232906](https://github.com/user-attachments/assets/7ea70bdb-4aca-4b44-8286-77ec79d08a5f)
 - **User Profiles**: Create your own profile to showcase your unique style and taste! 🎨
-
-![image](https://github.com/user-attachments/assets/b28e1542-471e-43b5-9ec5-1db115023417)
-
 
 - **Responsive Design**: Looks great on all devices – from your phone to your grandma's computer! 📱💻
 
