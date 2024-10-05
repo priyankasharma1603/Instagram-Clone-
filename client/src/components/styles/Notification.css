@@ -1,0 +1,67 @@
+/* Container styling */
+.notification-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Each notification card */
+.notification-card {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.notification-card:last-child {
+  border-bottom: none;
+}
+
+/* Profile picture styling */
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Notification content styling */
+.notification-content {
+  flex-grow: 1;
+}
+
+.notification-content strong {
+  font-size: 14px;
+  color: #333;
+}
+
+.notification-content small {
+  display: block;
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Content picture styling */
+.content-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/* See all notifications styling */
+.see-all {
+  text-align: center;
+  padding: 15px 0;
+  font-weight: bold;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.see-all:hover {
+  text-decoration: underline;
+}

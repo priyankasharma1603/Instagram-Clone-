@@ -1,0 +1,231 @@
+body {
+  background-image: url("../../assets/bg.png"); 
+  font-family: 'Arial', sans-serif;
+  margin: 0; 
+
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: nowrap; 
+}
+
+.sidebar1 {
+  width: 20%;
+  padding: 20px;
+  border-radius: 8px; 
+}
+
+.suggested {
+  width: 20%;
+  padding: 20px;
+  position: relative; 
+  background-color: #ffffff; 
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 8px; 
+}
+
+.main-content {
+  width: 60%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  border-radius: 8px; 
+}
+
+
+/* Search Bar Styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff; 
+  border-radius: 30px; 
+  padding: 8px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 700px;
+  height: 60px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  background: none;
+  flex-grow: 1;
+  padding: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.search-bar input::placeholder {
+  color: #bbb; 
+}
+
+.search-bar .cancel-button {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.search-bar .search-icon {
+  font-size: 18px;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+.home {
+  width: 100%;
+}
+
+.card {
+  width: 100%; 
+  max-width: 600px; 
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.3s ease; 
+}
+
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.card h5 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column; 
+  margin-top: 10px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px; 
+}
+
+.card-actions i {
+  margin-right: 15px;
+  cursor: pointer; 
+  transition: color 0.3s ease; 
+}
+
+/* Fixed Suggestion Section Styling */
+.suggested .user-card {
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  
+}
+
+.suggested h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.suggested .user-image {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #ae04ba; 
+  border-radius: 50%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.suggested p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.suggested .stat {
+  font-weight: bold;
+  color: #333;
+}
+
+.suggested .user-bio {
+  margin-top: 10px;
+  color: #777;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .sidebar1 {
+    width: 25%;
+  }
+
+  .main-content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; /* Ensure content stays centered */
+  }
+
+  .suggested {
+    width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .sidebar1,
+  .suggested,
+  .main-content {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar1,
+  .suggested {
+    padding: 15px;
+  }
+
+  .sidebar li {
+    font-size: 14px;
+  }
+
+  .suggested h3 {
+    font-size: 16px;
+  }
+
+  .suggested p {
+    font-size: 12px;
+  }
+}
