@@ -1,5 +1,5 @@
 # 🎉 Instagram Clone - A Mini Photo Paradise! 📸
-```markdown
+
 Welcome to the **Instagram Clone**! 🎈 Here, you can upload, like, and comment on photos just like the real deal, but with a sprinkle of magic and a dash of fun! 🎊
 
 ## 🌟 Features
@@ -47,7 +47,6 @@ Follow these steps to get your very own Instagram Clone running on your local ma
 
    ```bash
    npm start
-   ```
 
    The backend server will typically run on `http://localhost:5000` (or another port specified in your backend code).
 
